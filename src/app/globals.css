@@ -8,3 +8,7 @@
 
 /* Sans-serif system: condensed labels carry the automotive character without sacrificing clarity. */
 body{font-family:Manrope,Arial,sans-serif}h1,h2,.logo,.plate-model strong,.metric b,.tire-mark,.footer-main h2{font-family:'Barlow Condensed',Arial,sans-serif}.phone{height:535px}.messages{height:433px}.parts-message{padding:8px;margin:7px 0;border-radius:6px}.parts-message>p{margin:0 0 5px;font-size:8px;font-weight:700;color:#66736c}.parts-message a{grid-template-columns:1fr auto;align-items:center;padding:7px 0;font-size:9px}.parts-message a b{font-size:9px}.parts-message a em{grid-column:auto;font:700 7px Manrope,Arial,sans-serif;color:#3d7e4c;margin:0 0 0 8px}.parts-message footer{display:grid;grid-template-columns:1fr auto;padding-top:7px;font:8px Manrope,Arial,sans-serif}.parts-message footer b{font-size:10px}.parts-message footer small{grid-column:1/-1;color:#7a857f;font-size:7px;margin-top:2px}.phone>footer{font-family:Manrope,Arial,sans-serif}
+
+/* Compact landing rhythm: the hero and WhatsApp proof carry the page. */
+.hero{min-height:560px}.process{padding-top:90px;padding-bottom:85px}.evidence{min-height:500px;padding-top:55px;padding-bottom:55px}footer{padding-top:42px}.footer-main{min-height:140px}.footer-bottom{margin-top:35px}
+@media(max-width:780px){.hero{min-height:0}.process{padding-top:65px;padding-bottom:65px}.evidence{min-height:0;padding-top:60px;padding-bottom:55px}}
